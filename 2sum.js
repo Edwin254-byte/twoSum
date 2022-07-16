@@ -14,6 +14,7 @@ function twoSum(arr, s) {
   if (arr.length === 1 && arr[0] === s) {
     isPresent = true;
   } else {
+    //you should optimize yourself Mr. Caleb😅
     for (let i = 0; i < arr.length; i++) {
       for (let j = 0; j < arr.length; j++) {
         if (typeof arr[i] != "number" || typeof arr[j] != "number")
